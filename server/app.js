@@ -25,7 +25,7 @@ app.use(
 app.use(bodyParser.json());
 
 // Serve Static Files (if needed for a combined frontend-backend deployment)
-app.use(express.static(path.join(__dirname, "public_html/public")));
+app.use(express.static(path.join(__dirname, "public_html")));
 
 // ------------------ Authentication Endpoints ------------------
 
