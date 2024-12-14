@@ -1,4 +1,4 @@
-const BASE_URL = "http://paramountlandscaping.au";
+const BASE_URL = "https://paramountlandscaping.au";
 
 // Login
 document.getElementById("login-form").addEventListener("submit", async (e) => {

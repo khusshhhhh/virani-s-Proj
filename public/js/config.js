@@ -1,1 +1,1 @@
-const BASE_URL = "http://paramountlandscaping.au";
+const BASE_URL = "https://paramountlandscaping.au";

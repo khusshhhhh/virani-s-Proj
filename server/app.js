@@ -18,14 +18,14 @@ const pool = new Pool({
 // Middleware
 app.use(
   cors({
-    origin: ["http://paramountlandscaping.au", "http://localhost:5500"], // Allow requests from the frontend
+    origin: ["https://paramountlandscaping.au", "http://localhost:5500"], // Allow requests from the frontend
     credentials: true, // Allow cookies to be sent with requests
   })
 );
 app.use(bodyParser.json());
 
 // Serve Static Files (if needed for a combined frontend-backend deployment)
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "public_html/public")));
 
 // ------------------ Authentication Endpoints ------------------
 
